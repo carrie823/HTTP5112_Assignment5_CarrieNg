@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTP5112-Assignment3-CarrieNg", "HTTP5112-Assignment3-CarrieNg\HTTP5112-Assignment3-CarrieNg.csproj", "{5814D3F4-77C5-4CF3-BD69-B486B0B2A495}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5814D3F4-77C5-4CF3-BD69-B486B0B2A495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5814D3F4-77C5-4CF3-BD69-B486B0B2A495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5814D3F4-77C5-4CF3-BD69-B486B0B2A495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5814D3F4-77C5-4CF3-BD69-B486B0B2A495}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE2756F8-960A-43AF-91F1-A61B7D0216E4}
+	EndGlobalSection
+EndGlobal

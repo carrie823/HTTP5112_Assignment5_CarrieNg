@@ -1,0 +1,22 @@
+﻿@model HTTP5112_Assignment3_CarrieNg.Models.Teacher
+@{
+    ViewBag.Title = "Show";
+}
+
+<nav>
+    <a class="navlink" href="/Teacher/List">Back to Teachers</a>
+    <a class="dellink" href="/Teacher/DeleteConfirm/@Model.TeacherId">Delete</a>
+    <a class="navlink" href="/Teacher/Update/@Model.TeacherId">Update</a>
+</nav>
+
+<h2>Show Teacher</h2>
+<h2>@Model.TeacherFname @Model.TeacherLname</h2>
+
+<p>Teacher ID: @Model.TeacherId</p>
+
+<p>Employee Number: @Model.EmployeeNumber</p>
+
+<p>Hire Date: @Model.HireDate.ToString("dd-MM-yyyy")</p>
+
+<p>Salary: @Model.Salary</p>
+
